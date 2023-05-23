@@ -1,0 +1,36 @@
+
+/* Perisan Typeography */
+/* Author : Mahdi Hazrati */
+
+@font-face {
+    font-family: "yekan";
+    src: url("./fonts/B_Yekan/BYekan.ttf")
+}
+
+*,
+*::before,
+*::after {
+    font-family: "yekan", sans-serif;
+}
+
+body {
+    direction: rtl;
+    font-family: "yekan", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "yekan", sans-serif;
+}
+span,
+p {
+    font-family: "yekan", sans-serif;
+}
+input,
+input::placeholder {
+    font-family: "yekan", sans-serif;
+}
