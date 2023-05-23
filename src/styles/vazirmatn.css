@@ -1,0 +1,104 @@
+/* This @font-face block defines the "Vazir" font family and its different weights.
+   The "src" property specifies the paths to the font files in WOFF and WOFF2 formats.
+   Each @font-face block sets a different "font-weight" value for the font,
+   ranging from 100 (thin) to 900 (black), with 400 being the default (regular).
+   These font weights are used to create different variations of the "Vazir" font family. */
+
+   @font-face {
+    font-family: Vazirmatn;
+    src: url('../fonts/vazirmatn-v33.003/fonts/webfonts/Vazirmatn-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../fonts/vazirmatn-v33.003/webfonts/Vazirmatn-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../fonts/vazirmatn-v33.003/webfonts/Vazirmatn-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../fonts/vazirmatn-v33.003/webfonts/Vazirmatn-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../fonts/vazirmatn-v33.003/webfonts/Vazirmatn-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../fonts/vazirmatn-v33.003/webfonts/Vazirmatn-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../fonts/vazirmatn-v33.003/webfonts/Vazirmatn-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../fonts/vazirmatn-v33.003/webfonts/Vazirmatn-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Vazirmatn;
+    src: url('../fonts/vazirmatn-v33.003/webfonts/Vazirmatn-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display:
+  }
+
+
+
+/* Apply Vazir font to all elements */
+* {
+  font-family: 'Vazir', sans-serif;
+}
+
+/* Change numbers to Persian */
+body {
+  unicode-bidi: plaintext;
+}
+ 
+body * {
+  unicode-bidi: embed;
+  font-size: 1.2rem; /* Set font size after changing the numbers */
+}
+ 
+body [dir="ltr"] {
+  unicode-bidi: bidi-override;
+}
+
+/* Change input placeholder font */
+input::placeholder {
+  font-family: 'Vazir', sans-serif;
+}
+
