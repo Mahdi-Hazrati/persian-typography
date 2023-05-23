@@ -1,0 +1,24 @@
+{
+  "name": "persian-typography",
+  "version": "1.0.0",
+  "description": "The package includes a collection of common Persian fonts and typography styles, which can be applied to the elements of your HTML document to give them a consistent and aesthetically pleasing look",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahdi-Hazrati/persian-typography.git"
+  },
+  "keywords": [
+    "persian-typography",
+    "persian-font",
+    "font-farsi"
+  ],
+  "author": "Mahdi Hazrati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mahdi-Hazrati/persian-typography/issues"
+  },
+  "homepage": "https://github.com/Mahdi-Hazrati/persian-typography#readme"
+}
