@@ -1,6 +1,6 @@
 {
   "name": "persian-typography",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The package includes a collection of common Persian fonts and typography styles, which can be applied to the elements of your HTML document to give them a consistent and aesthetically pleasing look",
   "main": "./src/js/index.js",
   "files": [
