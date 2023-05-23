@@ -1,0 +1,42 @@
+
+/* Perisan Typeography */
+/* Author : Mahdi Hazrati */
+
+@font-face {
+    font-family: "vazirmatn";
+    src: url("fonts/vazirmatn-v33.003/webfonts/Vazirmatn-FD-Regular.woff2")
+        format("woff2");
+}
+@font-face {
+    font-family: "vazirmatn-normal";
+    src: url("fonts/vazirmatn-v33.003/webfonts/Vazirmatn-Regular.woff2")
+        format("woff2");
+}
+
+*,
+*::before,
+*::after {
+    font-family: "vazirmatn", sans-serif;
+}
+
+body {
+    direction: rtl;
+    font-family: "vazirmatn", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "vazirmatn", sans-serif;
+}
+span,
+p {
+    font-family: "vazirmatn", sans-serif;
+}
+input,
+input::placeholder {
+    font-family: "vazirmatn-normal", sans-serif;
+}
