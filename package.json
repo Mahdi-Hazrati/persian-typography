@@ -1,11 +1,12 @@
 {
   "name": "persian-typography",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The package includes a collection of common Persian fonts and typography styles, which can be applied to the elements of your HTML document to give them a consistent and aesthetically pleasing look",
   "main": "./src/js/index.js",
   "files": [
     "./src/vazirmatn.css",
     "./src/byekan.css",
+    "./src/fonts"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
